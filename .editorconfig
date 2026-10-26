@@ -1,0 +1,26 @@
+# EditorConfig is awesome: https://EditorConfig.org
+
+# top-most EditorConfig file
+root = true
+
+[*]
+indent_style = space
+indent_size = 4
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+[*.{cs,vb}]
+# Ignore namespace errors
+dotnet_diagnostic.IDE0130.severity = none
+dotnet_diagnostic.CA1050.severity = none
+
+# Do not recommend `new()`
+dotnet_diagnostic.IDE0090.severity = none
+# Do not remove unneeded parenthesis
+dotnet_diagnostic.IDE0047.severity = none
+# Do not use type keywords for member access or ctors i.e. allow `new String` or `Int32.MaxValue`
+dotnet_diagnostic.IDE0049.severity = none
+# Warning on unused import
+dotnet_diagnostic.IDE0005.severity = warning
