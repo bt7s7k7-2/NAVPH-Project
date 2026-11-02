@@ -8,7 +8,7 @@ TagManager:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Player
   - Water
   - UI
   - 
@@ -46,6 +46,9 @@ TagManager:
     locked: 0
   - name: Objects
     uniqueID: 2997274491
+    locked: 0
+  - name: Overlay
+    uniqueID: 3429843485
     locked: 0
   m_RenderingLayers:
   - Default
