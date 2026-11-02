@@ -126,11 +126,12 @@ public partial class DialogueGui : MonoBehaviour, IDialogueHost
             case State.WaitingForUser:
                 if (_dialogue.Options is { } options)
                 {
+                    // Display multiple options if specified
                     ContinueButton.gameObject.SetActive(value: false);
                     var optionsContainer = ChoiceOptionButtonTemplate.transform.parent;
                     optionsContainer.gameObject.SetActive(true);
 
-                    // Clear stale options
+                    // Clear stale option buttons
                     foreach (var child in Enumerable.Range(0, optionsContainer.childCount)
                         .Select(optionsContainer.GetChild)
                         .Where(v => v != ChoiceOptionButtonTemplate.transform).ToList())
@@ -167,10 +168,11 @@ public partial class DialogueGui : MonoBehaviour, IDialogueHost
 
     void Update()
     {
+        // Always select the continue button so the player can just hit Enter
         if (ContinueButton.gameObject.activeInHierarchy) ContinueButton.Select();
 
         if (_state != State.RevealingText) return;
-
+        // Animate revealing text
         var revealBorderIndex = Mathf.FloorToInt(_revealIndex);
         DialogueTextElement.text = revealBorderIndex >= _textToReveal.Length ? _textToReveal : _textToReveal[..revealBorderIndex] + "<alpha=#00>" + _textToReveal[revealBorderIndex..];
 

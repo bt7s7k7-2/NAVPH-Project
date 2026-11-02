@@ -4,6 +4,11 @@ using System.Reflection;
 using DialogueMachine;
 using Unity.Scripting.LifecycleManagement;
 
+/// <summary>
+/// Global game state. This class provides an easy access to the current dialogue and, as state is
+/// stored and defined in the dialogue definition, also provides wrappers for boolean flags. These
+/// can be accessed via string, and therefore configurable in editor.
+/// </summary>
 public sealed partial class DialogueState
 {
     public DialogueImpl Machine { get; private set; }

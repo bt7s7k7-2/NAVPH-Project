@@ -3,6 +3,10 @@ using System.Linq;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
+/// <summary>
+/// Activates InteractiveObjects based on player input. This component needs to be placed on the
+/// same game objects as a collider so it receives the OnTriggerStay2D message.
+/// </summary>
 public class InteractionSystem : MonoBehaviour
 {
     private InputAction _interactAction;
@@ -17,8 +21,10 @@ public class InteractionSystem : MonoBehaviour
     void Update()
     {
         var playerPosition = transform.position;
+        // Find the closest interactive object, that one will be interacted with -- if no objects are close enough, this returns null
         var activeObject = _relevantObjects.OrderBy(v => Vector3.SqrMagnitude(v.transform.position - playerPosition)).FirstOrDefault();
 
+        // Trigger events on the objects so they can show or hide their prompts
         if (activeObject != _lastActiveObject)
         {
             if (_lastActiveObject != null) _lastActiveObject.OnDeactivate.Invoke();
