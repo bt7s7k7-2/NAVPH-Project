@@ -144,7 +144,7 @@ public partial class DialogueGui : MonoBehaviour, IDialogueHost
                     foreach (var option in options)
                     {
                         var button = Instantiate(ChoiceOptionButtonTemplate);
-                        button.transform.parent = optionsContainer;
+                        button.transform.SetParent(optionsContainer, worldPositionStays: false);
                         button.gameObject.SetActive(true);
 
                         button.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = option.Text;
