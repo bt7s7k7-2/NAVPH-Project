@@ -118,6 +118,7 @@ public partial class DialogueGui : MonoBehaviour, IDialogueHost
 
             case State.RevealingText:
                 ContinueButton.gameObject.SetActive(value: true);
+                ContinueButton.Select();
                 ChoiceOptionButtonTemplate.transform.parent.gameObject.SetActive(false);
                 _revealIndex = 0;
                 DialogueTextElement.text = "";
@@ -140,7 +141,7 @@ public partial class DialogueGui : MonoBehaviour, IDialogueHost
                     }
 
                     // Create a button for each option
-                    var isFirst = false;
+                    var isFirst = true;
                     foreach (var option in options)
                     {
                         var button = Instantiate(ChoiceOptionButtonTemplate);
@@ -161,6 +162,10 @@ public partial class DialogueGui : MonoBehaviour, IDialogueHost
                         }
                     }
                 }
+                else
+                {
+                    ContinueButton.Select();
+                }
                 break;
         }
 
@@ -168,9 +173,6 @@ public partial class DialogueGui : MonoBehaviour, IDialogueHost
 
     void Update()
     {
-        // Always select the continue button so the player can just hit Enter
-        if (ContinueButton.gameObject.activeInHierarchy) ContinueButton.Select();
-
         if (_state != State.RevealingText) return;
         // Animate revealing text
         var revealBorderIndex = Mathf.FloorToInt(_revealIndex);
