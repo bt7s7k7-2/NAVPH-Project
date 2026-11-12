@@ -7,8 +7,6 @@ public class MouseLinePainter : MonoBehaviour
 {
     public LineRenderer Renderer;
     public float MinDistance = 0.1f;
-    public Vector2 ScreenSpaceOffset = Vector2.zero;
-    public Vector2 WorldSpaceOffset = new Vector2(0.5f, 0.0f);
 
     protected Vector2? _lastPosition = null;
     protected Vector3[] _points;
@@ -30,11 +28,13 @@ public class MouseLinePainter : MonoBehaviour
     {
         if (_click.IsPressed())
         {
-            var position = transform.worldToLocalMatrix * Camera.main.ScreenToWorldPoint(Mouse.current.position.ReadValue() + ScreenSpaceOffset);
+            var position = Camera.main.ScreenToWorldPoint(Mouse.current.position.ReadValue());
+
+            position = transform.InverseTransformPoint(position);
 
             position = new Vector3(
-                Mathf.Clamp(position.x + WorldSpaceOffset.x, -0.5f, 0.5f),
-                Mathf.Clamp(position.y + WorldSpaceOffset.y, -0.5f, 0.5f),
+                Mathf.Clamp(position.x, -0.5f, 0.5f),
+                Mathf.Clamp(position.y, -0.5f, 0.5f),
                 0.0f
             );
 

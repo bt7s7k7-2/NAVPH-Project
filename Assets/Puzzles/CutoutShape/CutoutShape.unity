@@ -1258,8 +1258,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Game::MouseLinePainter
   Renderer: {fileID: 2060202632}
   MinDistance: 0.05
-  ScreenSpaceOffset: {x: 30, y: 30}
-  WorldSpaceOffset: {x: 0.5, y: 0}
 --- !u!1 &1778288720
 GameObject:
   m_ObjectHideFlags: 0
