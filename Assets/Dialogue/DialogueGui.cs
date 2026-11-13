@@ -1,5 +1,7 @@
+using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text.RegularExpressions;
 using DialogueMachine;
 using TMPro;
 using Unity.Scripting.LifecycleManagement;
@@ -17,7 +19,23 @@ public partial class DialogueGui : MonoBehaviour, IDialogueHost
     public Button ContinueButton;
     public Button ChoiceOptionButtonTemplate;
     public float TextRevealSpeed = 10.0f;
-    [SerializeField] public Dictionary<string, string> CharacterDisplayNames;
+    public Image LeftSprite;
+    public Image RightSprite;
+
+    [Serializable]
+    public class CharacterInfo
+    {
+        public enum DisplayPositionType
+        {
+            Left, Right,
+        }
+
+        public string Name;
+        public Sprite DefaultSprite;
+        public DisplayPositionType DisplayPosition;
+        [SerializeField] public Dictionary<string, Sprite> Sprites;
+    }
+    [SerializeField] public Dictionary<string, CharacterInfo> Characters;
 
     private DialogueManager<DialogueImpl> _dialogue;
     private string _textToReveal = "";
@@ -72,28 +90,61 @@ public partial class DialogueGui : MonoBehaviour, IDialogueHost
         }
     }
 
+    private static readonly Regex _spriteNameInDialogue = new Regex(@"^(.*)#(\w+)$");
+
     void IDialogueHost.EmitDialogue(string subject, string text)
     {
         Debug.Log($"{subject} \\ {text}");
+
+        if (_spriteNameInDialogue.Match(text) is { Success: true } match)
+        {
+            text = match.Groups[1].Value;
+            var spriteName = match.Groups[2].Value;
+            ShowSprite(subject[2..], spriteName);
+        }
 
         if (subject == "c_player")
         {
             // Do not display the lines said by the player character, the player has already read them when choosing an options
             // TODO: Handle cases where there are player character lines not chosen by the player
-            _dialogue.Update(null);
-            if (_dialogue.IsAborted) SetState(State.Inactive);
             return;
         }
 
-        CharacterNameElement.text = CharacterDisplayNames[subject];
-        _textToReveal = text;
+        CharacterNameElement.text = Characters[subject[2..]].Name;
+        _textToReveal = text.Trim();
         SetState(State.RevealingText);
     }
 
+    protected void ShowSprite(string character, string spriteName)
+    {
+        Debug.Log($"Dialogue sprite: {character}::{spriteName ?? "<null>"}");
+        var info = Characters[character];
+        try
+        {
+            var sprite = spriteName == null ? info.DefaultSprite : info.Sprites[spriteName];
+
+            (info.DisplayPosition == CharacterInfo.DisplayPositionType.Left ? LeftSprite : RightSprite).sprite = sprite;
+        }
+        catch (KeyNotFoundException)
+        {
+            Debug.LogWarning($"Invalid sprite name {character}::{spriteName}");
+        }
+    }
+
+    private static readonly Regex _characterNameInLabel = new Regex(@"^npc_(\w+)");
+
     public void StartDialogue(string label)
     {
+        if (_characterNameInLabel.Match(label) is { Success: true } match)
+        {
+            ShowSprite(match.Groups[1].Value, null);
+        }
+
+        ShowSprite("player", null);
+
         SetState(State.Uninitialised);
         _dialogue.Jump(label);
+
     }
 
     void SetState(State newState)
@@ -148,7 +199,13 @@ public partial class DialogueGui : MonoBehaviour, IDialogueHost
                         button.transform.SetParent(optionsContainer, worldPositionStays: false);
                         button.gameObject.SetActive(true);
 
-                        button.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = option.Text;
+                        var text = option.Text;
+                        if (_spriteNameInDialogue.Match(text) is { Success: true } match)
+                        {
+                            text = match.Groups[1].Value;
+                        }
+
+                        button.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = text;
 
                         button.onClick.AddListener(() =>
                         {
