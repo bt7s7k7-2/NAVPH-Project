@@ -1,12 +1,16 @@
 using System;
 using System.Linq;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.InputSystem;
 
 public class MouseLinePainter : MonoBehaviour
 {
     public LineRenderer Renderer;
     public float MinDistance = 0.1f;
+
+    public UnityEvent OnDrawingUpdate;
+    public UnityEvent OnDrawingFinished;
 
     protected Vector2? _lastPosition = null;
     protected Vector3[] _points;
@@ -52,6 +56,7 @@ public class MouseLinePainter : MonoBehaviour
                 {
                     _points[_pointCount++] = position;
                     _lastPosition = position;
+                    OnDrawingUpdate.Invoke();
                 }
             }
             else
@@ -61,6 +66,7 @@ public class MouseLinePainter : MonoBehaviour
                 _points[1] = position;
                 _pointCount = 2;
                 _lastPosition = position;
+                OnDrawingUpdate.Invoke();
             }
 
             Renderer.positionCount = _pointCount;
@@ -68,6 +74,11 @@ public class MouseLinePainter : MonoBehaviour
         }
         else
         {
+            if (_lastPosition != null)
+            {
+                OnDrawingFinished.Invoke();
+            }
+
             _lastPosition = null;
         }
     }
