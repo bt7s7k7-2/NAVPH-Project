@@ -294,7 +294,7 @@ GameObject:
   - component: {fileID: 1692982785}
   m_Layer: 0
   m_Name: Wall
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -339,6 +339,12 @@ EdgeCollider2D:
   - {x: 0.28170824, y: -0.020304203}
   - {x: 0.28192043, y: 0.013944387}
   - {x: 0.20767641, y: 5.373781}
+  - {x: 3.045, y: 5.727}
+  - {x: 3.095, y: 0.677}
+  - {x: 5.245, y: 0.527}
+  - {x: 5.045, y: 5.627}
+  - {x: 7.595, y: 5.727}
+  - {x: 8.245, y: 0.177}
   m_AdjacentStartPoint: {x: 0, y: 0}
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0
