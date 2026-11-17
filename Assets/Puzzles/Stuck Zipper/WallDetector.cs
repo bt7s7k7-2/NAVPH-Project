@@ -7,12 +7,31 @@ public class WallDetector : MonoBehaviour
     [SerializeField] Sprite circleSprite;
     [SerializeField] float horizontalVelocity = 1.4f;
     [SerializeField] float verticalImpulse = 3.5f;
+    [SerializeField] Vector2 mazeStartPosition = new Vector2(-3.71f, -2.96f);
 
     const int CircleCount = 6;
     bool wallHit;
     List<CircleCollider2D> spawnedColliders;
+    CircleCollider2D blackTarget;
     Rigidbody2D draggedBody;
     Vector3 dragOffset;
+
+    void Start()
+    {
+        ResetToMazeStart();
+    }
+
+    void ResetToMazeStart()
+    {
+        transform.position = new Vector3(mazeStartPosition.x, mazeStartPosition.y, 0f);
+
+        Camera camera = Camera.main;
+        Mouse mouse = Mouse.current;
+        if (camera != null && mouse != null)
+            mouse.WarpCursorPosition(camera.WorldToScreenPoint(transform.position));
+
+        Cursor.visible = false;
+    }
 
     void Update()
     {
@@ -50,12 +69,39 @@ public class WallDetector : MonoBehaviour
             return;
 
         if (mouse.leftButton.isPressed)
+        {
             draggedBody.position = (Vector2)pointer + (Vector2)dragOffset;
+            if (blackTarget != null && blackTarget.OverlapPoint(draggedBody.position))
+                CollectDraggedCircle();
+        }
         else
         {
             draggedBody.bodyType = RigidbodyType2D.Dynamic;
             draggedBody = null;
         }
+    }
+
+    void CollectDraggedCircle()
+    {
+        CircleCollider2D collectedCollider = draggedBody.GetComponent<CircleCollider2D>();
+        spawnedColliders.Remove(collectedCollider);
+        Destroy(draggedBody.gameObject);
+        draggedBody = null;
+
+        if (spawnedColliders.Count == 0)
+            CompleteGutsCollection();
+    }
+
+    void CompleteGutsCollection()
+    {
+        Destroy(blackTarget.gameObject);
+        blackTarget = null;
+        spawnedColliders = null;
+        wallHit = false;
+        ResetToMazeStart();
+
+        if (TryGetComponent<FollowCursor>(out var followCursor))
+            followCursor.enabled = true;
     }
 
     void OnTriggerEnter2D(Collider2D other)
@@ -102,6 +148,7 @@ public class WallDetector : MonoBehaviour
             : Vector3.zero;
         spawnPosition.z = 0f;
         CreateFloor(camera);
+        CreateBlackTarget(spawnPosition, burstSprite);
         spawnedColliders = new List<CircleCollider2D>(CircleCount);
 
         for (int i = 0; i < CircleCount; i++)
@@ -138,6 +185,22 @@ public class WallDetector : MonoBehaviour
                 Random.Range(verticalImpulse * 0.7f, verticalImpulse * 1.3f));
 
         }
+    }
+
+    void CreateBlackTarget(Vector3 spawnPosition, Sprite burstSprite)
+    {
+        GameObject target = new GameObject("Guts collection target");
+        target.transform.position = spawnPosition;
+        target.transform.localScale = Vector3.one * 1.2f;
+
+        SpriteRenderer renderer = target.AddComponent<SpriteRenderer>();
+        renderer.sprite = burstSprite;
+        renderer.color = Color.black;
+        renderer.sortingOrder = 1;
+
+        blackTarget = target.AddComponent<CircleCollider2D>();
+        blackTarget.radius = 0.5f;
+        blackTarget.isTrigger = true;
     }
 
     void CreateFloor(Camera camera)
