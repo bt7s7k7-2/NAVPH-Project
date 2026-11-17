@@ -268,6 +268,7 @@ EdgeCollider2D:
   - {x: 0.28170824, y: -0.020304203}
   - {x: 0.28192043, y: 0.013944387}
   - {x: 0.21583462, y: 1.2106016}
+  - {x: 0.2781124, y: 3.6578681}
   - {x: 0.19381285, y: 5.415373}
   - {x: 2.8509095, y: 5.5329094}
   - {x: 2.6513631, y: 0.28881735}
@@ -491,7 +492,10 @@ EdgeCollider2D:
   m_Points:
   - {x: 0.0998497, y: -0.58241415}
   - {x: 0.13312626, y: -0.25057745}
-  - {x: 0.21583462, y: 1.2106016}
+  - {x: 0.07922292, y: 0.74682355}
+  - {x: 0.06530666, y: 1.2643616}
+  - {x: 0.1956129, y: 2.6520262}
+  - {x: 0.08693051, y: 4.436284}
   - {x: 0.19381285, y: 5.415373}
   - {x: 4.140456, y: 5.499844}
   - {x: 3.8582468, y: 0.20615429}
@@ -504,6 +508,7 @@ EdgeCollider2D:
   - {x: 8.7826805, y: 5.4412017}
   - {x: 8.8162, y: 4.934156}
   - {x: 9.058762, y: 4.0256205}
+  - {x: 9.102039, y: 2.200395}
   - {x: 9.171941, y: -0.74771553}
   m_AdjacentStartPoint: {x: 0, y: 0}
   m_AdjacentEndPoint: {x: 0, y: 0}
@@ -615,7 +620,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -3.71, y: -2.96, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
+  m_LocalScale: {x: 0.35, y: 0.35, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -647,6 +652,7 @@ MonoBehaviour:
   circleSprite: {fileID: 0}
   horizontalVelocity: 1.4
   verticalImpulse: 3.5
+  mazeStartPosition: {x: -3.71, y: -2.96}
 --- !u!58 &2102680568
 CircleCollider2D:
   m_ObjectHideFlags: 0
