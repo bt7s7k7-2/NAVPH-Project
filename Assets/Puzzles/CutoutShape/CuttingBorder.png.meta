@@ -1,0 +1,2459 @@
+fileFormatVersion: 2
+guid: df77bcdf2d35bda40ab6ec88fd94600f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1534367422356153286
+    second: CuttingBorder_0
+  - first:
+      213: -8867162438131461407
+    second: CuttingBorder_1
+  - first:
+      213: -3108212688106579250
+    second: CuttingBorder_2
+  - first:
+      213: 8210799272846819515
+    second: CuttingBorder_3
+  - first:
+      213: 7694447401488413530
+    second: CuttingBorder_4
+  - first:
+      213: 5176894548136493819
+    second: CuttingBorder_5
+  - first:
+      213: -4532004986015634293
+    second: CuttingBorder_6
+  - first:
+      213: -2050055178630613837
+    second: CuttingBorder_7
+  - first:
+      213: 4834214407421224052
+    second: CuttingBorder_8
+  - first:
+      213: 8170972657852284220
+    second: CuttingBorder_9
+  - first:
+      213: -5273135061412639133
+    second: CuttingBorder_10
+  - first:
+      213: -1268101906181168854
+    second: CuttingBorder_11
+  - first:
+      213: 3073905237360461862
+    second: CuttingBorder_12
+  - first:
+      213: 8184795448426081005
+    second: CuttingBorder_13
+  - first:
+      213: 4514507555110168111
+    second: CuttingBorder_14
+  - first:
+      213: 6943142912595700881
+    second: CuttingBorder_15
+  - first:
+      213: 3136243242375649661
+    second: CuttingBorder_16
+  - first:
+      213: -5629208370763841876
+    second: CuttingBorder_17
+  - first:
+      213: -7081852510374635636
+    second: CuttingBorder_18
+  - first:
+      213: -8355453158341510320
+    second: CuttingBorder_19
+  - first:
+      213: -1202599545878352156
+    second: CuttingBorder_20
+  - first:
+      213: 7625252423730228240
+    second: CuttingBorder_21
+  - first:
+      213: 1582757294200737925
+    second: CuttingBorder_22
+  - first:
+      213: 5584968201127552312
+    second: CuttingBorder_23
+  - first:
+      213: 4223503491428339500
+    second: CuttingBorder_24
+  - first:
+      213: -5869695040113601726
+    second: CuttingBorder_25
+  - first:
+      213: -5662011083294836183
+    second: CuttingBorder_26
+  - first:
+      213: -4661554423330872803
+    second: CuttingBorder_27
+  - first:
+      213: 7984210316889628874
+    second: CuttingBorder_28
+  - first:
+      213: 5859423613022077192
+    second: CuttingBorder_29
+  - first:
+      213: 5880645682781495303
+    second: CuttingBorder_30
+  - first:
+      213: -6015294897544138196
+    second: CuttingBorder_31
+  - first:
+      213: -2154284461527991818
+    second: CuttingBorder_32
+  - first:
+      213: 7243500953499454051
+    second: CuttingBorder_33
+  - first:
+      213: 119502414495968256
+    second: CuttingBorder_34
+  - first:
+      213: -7701959101107096691
+    second: CuttingBorder_35
+  - first:
+      213: -1632692418406292072
+    second: CuttingBorder_36
+  - first:
+      213: 1643345058045075701
+    second: CuttingBorder_37
+  - first:
+      213: 5165094730531197046
+    second: CuttingBorder_38
+  - first:
+      213: 5486166465446684661
+    second: CuttingBorder_39
+  - first:
+      213: 4235665814360620634
+    second: CuttingBorder_40
+  - first:
+      213: -6934409952333969346
+    second: CuttingBorder_41
+  - first:
+      213: -6757766836507638071
+    second: CuttingBorder_42
+  - first:
+      213: 5879859774318769022
+    second: CuttingBorder_43
+  - first:
+      213: -6214730278986637370
+    second: CuttingBorder_44
+  - first:
+      213: 2823340548269641597
+    second: CuttingBorder_45
+  - first:
+      213: -8366053478080467165
+    second: CuttingBorder_46
+  - first:
+      213: -5736348687385004497
+    second: CuttingBorder_47
+  - first:
+      213: 4213352155571516573
+    second: CuttingBorder_48
+  - first:
+      213: -7176676284897926287
+    second: CuttingBorder_49
+  - first:
+      213: 4400550311272778843
+    second: CuttingBorder_50
+  - first:
+      213: 5906740314326161733
+    second: CuttingBorder_51
+  - first:
+      213: -4360974398311530060
+    second: CuttingBorder_52
+  - first:
+      213: -2754827822614009082
+    second: CuttingBorder_53
+  - first:
+      213: -1854454580094892979
+    second: CuttingBorder_54
+  - first:
+      213: 6471661189194275045
+    second: CuttingBorder_55
+  - first:
+      213: 286516558140531445
+    second: CuttingBorder_56
+  - first:
+      213: 4982256859923319043
+    second: CuttingBorder_57
+  - first:
+      213: -2529410392029386630
+    second: CuttingBorder_58
+  - first:
+      213: -947905162194686234
+    second: CuttingBorder_59
+  - first:
+      213: 1570432658272370609
+    second: CuttingBorder_60
+  - first:
+      213: 5884894832418592047
+    second: CuttingBorder_61
+  - first:
+      213: 9001832066920414183
+    second: CuttingBorder_62
+  - first:
+      213: 3534810293866220192
+    second: CuttingBorder_63
+  - first:
+      213: -1584443691916353228
+    second: CuttingBorder_64
+  - first:
+      213: -4462902048779899251
+    second: CuttingBorder_65
+  - first:
+      213: -385692733814004252
+    second: CuttingBorder_66
+  - first:
+      213: -4930047606165271903
+    second: CuttingBorder_67
+  - first:
+      213: 6362516625119179672
+    second: CuttingBorder_68
+  - first:
+      213: 4820339677889135840
+    second: CuttingBorder_69
+  - first:
+      213: 8228602055600929663
+    second: CuttingBorder_70
+  - first:
+      213: -4593158245421970400
+    second: CuttingBorder_71
+  - first:
+      213: -9036208742960482454
+    second: CuttingBorder_72
+  - first:
+      213: -5660475106108922226
+    second: CuttingBorder_73
+  - first:
+      213: -408570358545029788
+    second: CuttingBorder_74
+  - first:
+      213: -8090229194659795025
+    second: CuttingBorder_75
+  - first:
+      213: 6538583011317949548
+    second: CuttingBorder_76
+  - first:
+      213: 6431105193450930959
+    second: CuttingBorder_77
+  - first:
+      213: -4902039862551656631
+    second: CuttingBorder_78
+  - first:
+      213: -8910392560189851453
+    second: CuttingBorder_79
+  - first:
+      213: -523801884380902950
+    second: CuttingBorder_80
+  - first:
+      213: 1578279497280941979
+    second: CuttingBorder_81
+  - first:
+      213: 4453264942408261309
+    second: CuttingBorder_82
+  - first:
+      213: -9157934447720490793
+    second: CuttingBorder_83
+  - first:
+      213: -8855504010229917400
+    second: CuttingBorder_84
+  - first:
+      213: 3185976935670843501
+    second: CuttingBorder_85
+  - first:
+      213: -5646894943663476182
+    second: CuttingBorder_86
+  - first:
+      213: 1310409729804809502
+    second: CuttingBorder_87
+  - first:
+      213: -4463488112080416917
+    second: CuttingBorder_88
+  - first:
+      213: -3785442895828232721
+    second: CuttingBorder_89
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 37, y: 45, z: 46, w: 32}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CuttingBorder_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 900
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3c978375f4d4bae0800000000000000
+      internalID: -1534367422356153286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuttingBorder_1
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 912
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e2dc752eb281f480800000000000000
+      internalID: -8867162438131461407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuttingBorder_2
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 912
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eca9b0737096dd4d0800000000000000
+      internalID: -3108212688106579250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuttingBorder_3
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 912
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb0021c9f6e92f170800000000000000
+      internalID: 8210799272846819515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuttingBorder_4
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 912
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a53f4ac052b28ca60800000000000000
+      internalID: 7694447401488413530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuttingBorder_5
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 912
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf20555c92608d740800000000000000
+      internalID: 5176894548136493819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuttingBorder_6
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 912
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8c2d301a751b11c0800000000000000
+      internalID: -4532004986015634293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuttingBorder_7
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 912
+        width: 33
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b4b5cb3dadbc83e0800000000000000
+      internalID: -2050055178630613837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuttingBorder_8
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 912
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 474ea6a0464961340800000000000000
+      internalID: 4834214407421224052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuttingBorder_9
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 912
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3df6b43750256170800000000000000
+      internalID: 8170972657852284220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuttingBorder_10
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 912
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36e87d3999f02d6b0800000000000000
+      internalID: -5273135061412639133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuttingBorder_11
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 912
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a216317f80cc66ee0800000000000000
+      internalID: -1268101906181168854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuttingBorder_12
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 912
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6284512f684b8aa20800000000000000
+      internalID: 3073905237360461862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuttingBorder_13
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 912
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: deaabae681c369170800000000000000
+      internalID: 8184795448426081005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuttingBorder_14
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 912
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f26a826d3b0c6ae30800000000000000
+      internalID: 4514507555110168111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuttingBorder_15
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 912
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19ca90251bffa5060800000000000000
+      internalID: 6943142912595700881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuttingBorder_16
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 912
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d791507cc9c268b20800000000000000
+      internalID: 3136243242375649661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuttingBorder_17
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 912
+        width: 33
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cae37f5cfc801e1b0800000000000000
+      internalID: -5629208370763841876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuttingBorder_18
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 912
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c87596fb9a438bd90800000000000000
+      internalID: -7081852510374635636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuttingBorder_19
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 912
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05b73af1f977b0c80800000000000000
+      internalID: -8355453158341510320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuttingBorder_20
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 912
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4eeefdca5128f4fe0800000000000000
+      internalID: -1202599545878352156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuttingBorder_21
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 912
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01c6027dda652d960800000000000000
+      internalID: 7625252423730228240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuttingBorder_22
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 912
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5805e7e8f5517f510800000000000000
+      internalID: 1582757294200737925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuttingBorder_23
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 900
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8356f0e0dfac18d40800000000000000
+      internalID: 5584968201127552312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuttingBorder_24
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 859
+        width: 8
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2f45326c06ec9a30800000000000000
+      internalID: 4223503491428339500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuttingBorder_25
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 859
+        width: 8
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2431822c577aa8ea0800000000000000
+      internalID: -5869695040113601726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuttingBorder_26
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 819
+        width: 8
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92af2e91bee7c61b0800000000000000
+      internalID: -5662011083294836183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuttingBorder_27
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 819
+        width: 8
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d12663033f4de4fb0800000000000000
+      internalID: -4661554423330872803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuttingBorder_28
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 778
+        width: 8
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac027362bfc9dce60800000000000000
+      internalID: 7984210316889628874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuttingBorder_29
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 778
+        width: 8
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80187b24bbad05150800000000000000
+      internalID: 5859423613022077192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuttingBorder_30
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 738
+        width: 8
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 700202c67104c9150800000000000000
+      internalID: 5880645682781495303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuttingBorder_31
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 738
+        width: 8
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2279ac3921658ca0800000000000000
+      internalID: -6015294897544138196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuttingBorder_32
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 698
+        width: 8
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f9fa7532b17a12e0800000000000000
+      internalID: -2154284461527991818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuttingBorder_33
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 698
+        width: 8
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36ac98f4db5168460800000000000000
+      internalID: 7243500953499454051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuttingBorder_34
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 657
+        width: 8
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00c65d510de88a100800000000000000
+      internalID: 119502414495968256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuttingBorder_35
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 657
+        width: 8
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d83bce711052d1590800000000000000
+      internalID: -7701959101107096691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuttingBorder_36
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 617
+        width: 8
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8956b6555e28759e0800000000000000
+      internalID: -1632692418406292072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuttingBorder_37
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 617
+        width: 8
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f0ab2c9f955ec610800000000000000
+      internalID: 1643345058045075701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuttingBorder_38
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 576
+        width: 8
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 670dd84aa4a1ea740800000000000000
+      internalID: 5165094730531197046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuttingBorder_39
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 576
+        width: 8
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f72c975557c22c40800000000000000
+      internalID: 5486166465446684661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuttingBorder_40
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 536
+        width: 8
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5efa3cdd9b18ca30800000000000000
+      internalID: 4235665814360620634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuttingBorder_41
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 536
+        width: 8
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e38433073e604cf90800000000000000
+      internalID: -6934409952333969346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuttingBorder_42
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 496
+        width: 8
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c60c0bcdd69732a0800000000000000
+      internalID: -6757766836507638071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuttingBorder_43
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 496
+        width: 8
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e73f069df45799150800000000000000
+      internalID: 5879859774318769022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuttingBorder_44
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 455
+        width: 8
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cf13220db7d0c9a0800000000000000
+      internalID: -6214730278986637370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuttingBorder_45
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 455
+        width: 8
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7f819b15458e2720800000000000000
+      internalID: 2823340548269641597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuttingBorder_46
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 415
+        width: 8
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32fa71bdfaec5eb80800000000000000
+      internalID: -8366053478080467165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuttingBorder_47
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 415
+        width: 8
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2673a4e2456460b0800000000000000
+      internalID: -5736348687385004497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuttingBorder_48
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 375
+        width: 8
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9477725675d87a30800000000000000
+      internalID: 4213352155571516573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuttingBorder_49
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 375
+        width: 8
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17360ba41f2576c90800000000000000
+      internalID: -7176676284897926287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuttingBorder_50
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 334
+        width: 8
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5c06a76135e11d30800000000000000
+      internalID: 4400550311272778843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuttingBorder_51
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 334
+        width: 8
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 549d3e74505f8f150800000000000000
+      internalID: 5906740314326161733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuttingBorder_52
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 294
+        width: 8
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b18112e3e4ba73c0800000000000000
+      internalID: -4360974398311530060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuttingBorder_53
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 294
+        width: 8
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60baab7e0b2e4c9d0800000000000000
+      internalID: -2754827822614009082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuttingBorder_54
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 253
+        width: 8
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d44095d7267a346e0800000000000000
+      internalID: -1854454580094892979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuttingBorder_55
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 253
+        width: 8
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e85b903095ffc950800000000000000
+      internalID: 6471661189194275045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuttingBorder_56
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 213
+        width: 8
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f2eb36aa49e9f300800000000000000
+      internalID: 286516558140531445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuttingBorder_57
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 213
+        width: 8
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3098b7b8738842540800000000000000
+      internalID: 4982256859923319043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuttingBorder_58
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 173
+        width: 8
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7828eb56aab5ecd0800000000000000
+      internalID: -2529410392029386630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuttingBorder_59
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 173
+        width: 8
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ee60a6f64d58d2f0800000000000000
+      internalID: -947905162194686234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuttingBorder_60
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 132
+        width: 8
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bf3ff3ae2c4bc510800000000000000
+      internalID: 1570432658272370609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuttingBorder_61
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 132
+        width: 8
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2597daaba85ba150800000000000000
+      internalID: 5884894832418592047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuttingBorder_62
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 92
+        width: 8
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ebf284329eecec70800000000000000
+      internalID: 9001832066920414183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuttingBorder_63
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 92
+        width: 8
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0aa4a4aeb3b2e0130800000000000000
+      internalID: 3534810293866220192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuttingBorder_64
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 51
+        width: 8
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 431a7b06bdce20ae0800000000000000
+      internalID: -1584443691916353228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuttingBorder_65
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 51
+        width: 8
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8e6c1b6b369012c0800000000000000
+      internalID: -4462902048779899251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuttingBorder_66
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 8
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e52198808eb5aaf0800000000000000
+      internalID: -385692733814004252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuttingBorder_67
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 8
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1aa01cc92d3f49bb0800000000000000
+      internalID: -4930047606165271903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuttingBorder_68
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 8
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 893feb519233c4850800000000000000
+      internalID: 6362516625119179672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuttingBorder_69
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 8
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e48d45d56945e240800000000000000
+      internalID: 4820339677889135840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuttingBorder_70
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 8
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7b742af8fdd13270800000000000000
+      internalID: 8228602055600929663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuttingBorder_71
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 8
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02c877059e2d140c0800000000000000
+      internalID: -4593158245421970400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuttingBorder_72
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 8
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a67bf8f2600f89280800000000000000
+      internalID: -9036208742960482454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuttingBorder_73
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 8
+        width: 33
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e86af68a1e3f171b0800000000000000
+      internalID: -5660475106108922226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuttingBorder_74
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 8
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4656b217c67745af0800000000000000
+      internalID: -408570358545029788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuttingBorder_75
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 8
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fafeecc496bb9bf80800000000000000
+      internalID: -8090229194659795025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuttingBorder_76
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 8
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c64a20c1b96bdba50800000000000000
+      internalID: 6538583011317949548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuttingBorder_77
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 8
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0300d89910ef3950800000000000000
+      internalID: 6431105193450930959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuttingBorder_78
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 8
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 947cdc597b478fbb0800000000000000
+      internalID: -4902039862551656631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuttingBorder_79
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 8
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c8b9900d2de75480800000000000000
+      internalID: -8910392560189851453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuttingBorder_80
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 8
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad9cbcc16f41bb8f0800000000000000
+      internalID: -523801884380902950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuttingBorder_81
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 8
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9f66b737dc27e510800000000000000
+      internalID: 1578279497280941979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuttingBorder_82
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 8
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbed1f6eedc2dcd30800000000000000
+      internalID: 4453264942408261309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuttingBorder_83
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 8
+        width: 33
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d89e4ff32b78e080800000000000000
+      internalID: -9157934447720490793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuttingBorder_84
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 8
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 829d23b650eea1580800000000000000
+      internalID: -8855504010229917400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuttingBorder_85
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 8
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d688f39942dd63c20800000000000000
+      internalID: 3185976935670843501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuttingBorder_86
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 8
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a223dfe97f232a1b0800000000000000
+      internalID: -5646894943663476182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuttingBorder_87
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 8
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e153b37d4b28f2210800000000000000
+      internalID: 1310409729804809502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuttingBorder_88
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 8
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6f844ce5318e02c0800000000000000
+      internalID: -4463488112080416917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuttingBorder_89
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 8
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe5d1ac0eb7677bc0800000000000000
+      internalID: -3785442895828232721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 1537655665
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      CuttingBorder_0: -1534367422356153286
+      CuttingBorder_1: -8867162438131461407
+      CuttingBorder_10: -5273135061412639133
+      CuttingBorder_11: -1268101906181168854
+      CuttingBorder_12: 3073905237360461862
+      CuttingBorder_13: 8184795448426081005
+      CuttingBorder_14: 4514507555110168111
+      CuttingBorder_15: 6943142912595700881
+      CuttingBorder_16: 3136243242375649661
+      CuttingBorder_17: -5629208370763841876
+      CuttingBorder_18: -7081852510374635636
+      CuttingBorder_19: -8355453158341510320
+      CuttingBorder_2: -3108212688106579250
+      CuttingBorder_20: -1202599545878352156
+      CuttingBorder_21: 7625252423730228240
+      CuttingBorder_22: 1582757294200737925
+      CuttingBorder_23: 5584968201127552312
+      CuttingBorder_24: 4223503491428339500
+      CuttingBorder_25: -5869695040113601726
+      CuttingBorder_26: -5662011083294836183
+      CuttingBorder_27: -4661554423330872803
+      CuttingBorder_28: 7984210316889628874
+      CuttingBorder_29: 5859423613022077192
+      CuttingBorder_3: 8210799272846819515
+      CuttingBorder_30: 5880645682781495303
+      CuttingBorder_31: -6015294897544138196
+      CuttingBorder_32: -2154284461527991818
+      CuttingBorder_33: 7243500953499454051
+      CuttingBorder_34: 119502414495968256
+      CuttingBorder_35: -7701959101107096691
+      CuttingBorder_36: -1632692418406292072
+      CuttingBorder_37: 1643345058045075701
+      CuttingBorder_38: 5165094730531197046
+      CuttingBorder_39: 5486166465446684661
+      CuttingBorder_4: 7694447401488413530
+      CuttingBorder_40: 4235665814360620634
+      CuttingBorder_41: -6934409952333969346
+      CuttingBorder_42: -6757766836507638071
+      CuttingBorder_43: 5879859774318769022
+      CuttingBorder_44: -6214730278986637370
+      CuttingBorder_45: 2823340548269641597
+      CuttingBorder_46: -8366053478080467165
+      CuttingBorder_47: -5736348687385004497
+      CuttingBorder_48: 4213352155571516573
+      CuttingBorder_49: -7176676284897926287
+      CuttingBorder_5: 5176894548136493819
+      CuttingBorder_50: 4400550311272778843
+      CuttingBorder_51: 5906740314326161733
+      CuttingBorder_52: -4360974398311530060
+      CuttingBorder_53: -2754827822614009082
+      CuttingBorder_54: -1854454580094892979
+      CuttingBorder_55: 6471661189194275045
+      CuttingBorder_56: 286516558140531445
+      CuttingBorder_57: 4982256859923319043
+      CuttingBorder_58: -2529410392029386630
+      CuttingBorder_59: -947905162194686234
+      CuttingBorder_6: -4532004986015634293
+      CuttingBorder_60: 1570432658272370609
+      CuttingBorder_61: 5884894832418592047
+      CuttingBorder_62: 9001832066920414183
+      CuttingBorder_63: 3534810293866220192
+      CuttingBorder_64: -1584443691916353228
+      CuttingBorder_65: -4462902048779899251
+      CuttingBorder_66: -385692733814004252
+      CuttingBorder_67: -4930047606165271903
+      CuttingBorder_68: 6362516625119179672
+      CuttingBorder_69: 4820339677889135840
+      CuttingBorder_7: -2050055178630613837
+      CuttingBorder_70: 8228602055600929663
+      CuttingBorder_71: -4593158245421970400
+      CuttingBorder_72: -9036208742960482454
+      CuttingBorder_73: -5660475106108922226
+      CuttingBorder_74: -408570358545029788
+      CuttingBorder_75: -8090229194659795025
+      CuttingBorder_76: 6538583011317949548
+      CuttingBorder_77: 6431105193450930959
+      CuttingBorder_78: -4902039862551656631
+      CuttingBorder_79: -8910392560189851453
+      CuttingBorder_8: 4834214407421224052
+      CuttingBorder_80: -523801884380902950
+      CuttingBorder_81: 1578279497280941979
+      CuttingBorder_82: 4453264942408261309
+      CuttingBorder_83: -9157934447720490793
+      CuttingBorder_84: -8855504010229917400
+      CuttingBorder_85: 3185976935670843501
+      CuttingBorder_86: -5646894943663476182
+      CuttingBorder_87: 1310409729804809502
+      CuttingBorder_88: -4463488112080416917
+      CuttingBorder_89: -3785442895828232721
+      CuttingBorder_9: 8170972657852284220
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
