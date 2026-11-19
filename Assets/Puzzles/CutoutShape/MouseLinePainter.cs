@@ -52,10 +52,18 @@ public class MouseLinePainter : MonoBehaviour
             {
                 _points[_pointCount - 1] = position;
 
-                if (Vector3.Distance(lastPosition, position) > MinDistance)
+                var shouldNotify = Vector3.Distance(lastPosition, position) > MinDistance;
+                if (shouldNotify)
                 {
                     _points[_pointCount++] = position;
                     _lastPosition = position;
+                }
+
+                Renderer.positionCount = _pointCount;
+                Renderer.SetPositions(_points);
+
+                if (shouldNotify)
+                {
                     OnDrawingUpdate.Invoke();
                 }
             }
@@ -66,11 +74,11 @@ public class MouseLinePainter : MonoBehaviour
                 _points[1] = position;
                 _pointCount = 2;
                 _lastPosition = position;
+
+                Renderer.positionCount = _pointCount;
+                Renderer.SetPositions(_points);
                 OnDrawingUpdate.Invoke();
             }
-
-            Renderer.positionCount = _pointCount;
-            Renderer.SetPositions(_points);
         }
         else
         {
